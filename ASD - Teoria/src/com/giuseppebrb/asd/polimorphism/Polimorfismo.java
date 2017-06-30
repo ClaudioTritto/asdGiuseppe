@@ -16,7 +16,7 @@ import com.giuseppebrb.asd.polimorphism.list.Lista;
  * Per il Polimorfismo Ad Hoc:
  * <li>Overloading</li>
  * <li>Coercizione</li>
- * 
+ *
  * @author Giuseppe Barbato
  *
  */
@@ -26,15 +26,15 @@ public class Polimorfismo {
 
 		/** POLIMORFISMO UNIVERSALE */
 
-		// Parametrico -> Garantisce Riusabilit� //
+		// Parametrico -> Garantisce Riusabilità //
 		List<String> lista = new Lista<>(); // Il polimorfismo parametrico
 											// indica l'utilizzo di CLASSI
 											// GENERALIZZATE. In oltre il
 											// polimorfismo parametrico
-											// garantisce Riusabilit� del
+											// garantisce Riusabilità del
 											// codice.
 
-		// Inclusione -> Garantisce Riusabilit� ed Estendibilit� //
+		// Inclusione -> Garantisce Riusabilità ed Estendibilità //
 		MezzoDiTrasporto mDT = new Automobile(); // Ad un oggetto istanziato
 													// attravverso una
 													// interfaccia, possiamo
@@ -61,7 +61,7 @@ public class Polimorfismo {
 		esempioOverloading = 13 + 13.4; // in questo caso il simbolo + usa come
 										// parametri un intero e una virgola
 										// mobile.
-		String esempioOverloadingStringhe = "Questo � " + "overloading"; // in
+		String esempioOverloadingStringhe = "Questo è " + "overloading"; // in
 																			// questo
 																			// caso
 																			// il
@@ -74,16 +74,17 @@ public class Polimorfismo {
 																			// Stringhe
 		// In sintesi, si parla di OVERLOADING (o nel caso dei metodi di
 		// overriding) quando una stessa notazione, in questo caso il simbolo +,
-		// pu� essere usata in constesti diversi e con parametri formali diversi
+		// può essere usata in constesti diversi e con parametri formali diversi
 
 		// Coercizione//
 		Integer i = 13;
-		int n = i; // in questo caso abbiamo COERCIZIONE poich� la conversione �
-					// implicita
+		int n = i; // in questo caso abbiamo COERCIZIONE poiché la conversione è
+					// implicita (nel caso specifico si tratta di unboxing, se fosse stato
+                    // da int a Integer sarebbe stato Autoboxing)
 
 		int altroEsempio = (int) (13 + 14.789); // in questo caso la conversione
-												// � esplicita e si parla di
-												// CASTING.
+												// è esplicita e si parla di
+												// CASTING. QUINDI, coercizione != casting
 	}
 
 }
