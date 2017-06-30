@@ -1,4 +1,4 @@
-package com.giuseppebrb.asd;
+package com.giuseppebrb.asd.iterator;
 
 import com.giuseppebrb.asd.iterator.CustomCollection;
 
