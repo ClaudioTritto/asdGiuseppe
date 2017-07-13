@@ -1,6 +1,4 @@
-package com.giuseppebrb.asd.fundamentaldatastructures.stack;
-
-import com.giuseppebrb.asd.fundamentaldatastructures.dictionary.EccezioneChiaveNonTrovata;
+package com.giuseppebrb.asd.fundamentaldatastructures;
 
 /**
  * Created by giuse on 13/07/2017.

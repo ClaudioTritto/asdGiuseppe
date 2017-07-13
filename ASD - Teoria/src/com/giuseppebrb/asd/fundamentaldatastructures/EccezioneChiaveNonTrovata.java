@@ -1,4 +1,4 @@
-package com.giuseppebrb.asd.fundamentaldatastructures.dictionary;
+package com.giuseppebrb.asd.fundamentaldatastructures;
 
 /**
  * Created by giuse on 12/07/2017.

@@ -1,5 +1,7 @@
 package com.giuseppebrb.asd.fundamentaldatastructures.dictionary;
 
+import com.giuseppebrb.asd.fundamentaldatastructures.EccezioneChiaveNonTrovata;
+
 /**
  * Questo tipo di dizionario è indicizzato e prevede l'adottamento della tecnica del
  * raddoppiamento/dimezzamento, tuttavia non prevede ordinamento degli elementi.

@@ -1,5 +1,7 @@
 package com.giuseppebrb.asd.fundamentaldatastructures.dictionary;
 
+import com.giuseppebrb.asd.fundamentaldatastructures.EccezioneChiaveNonTrovata;
+
 /**
  * Questa implementazione del Dizionario è basato su una struttura (doppiamente) collegata,
  * ad anello, che prevede la presenza di una classse interna record.

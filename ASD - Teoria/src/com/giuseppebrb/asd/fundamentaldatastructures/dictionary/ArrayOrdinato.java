@@ -1,5 +1,7 @@
 package com.giuseppebrb.asd.fundamentaldatastructures.dictionary;
 
+import com.giuseppebrb.asd.fundamentaldatastructures.EccezioneChiaveNonTrovata;
+
 /**
  * Forma basica ed elementare del dizionario.
  * Questo dizionario mantiene ordinati tutti gli elementi al suo interno e non prevede alcuna tecnica di raddoppiamento/dimezzamento.
