@@ -6,7 +6,7 @@ import com.giuseppebrb.asd.fundamentaldatastructures.EccezioneChiaveNonTrovata;
  * Questa implementazione del Dizionario è basato su una struttura (doppiamente) collegata,
  * ad anello, che prevede la presenza di una classse interna record.
  */
-public class DoubleLinkedList implements Dizionario {
+public class DoubleLinkedDictionary implements Dizionario {
     private Record list = null;
     @Override
     public void insert(Object e, Comparable k) {
@@ -72,7 +72,7 @@ public class DoubleLinkedList implements Dizionario {
     }
 
     public static void main(String[] args) {
-        DoubleLinkedList test = new DoubleLinkedList();
+        DoubleLinkedDictionary test = new DoubleLinkedDictionary();
 
         test.insert("0801234567", "Jobs");
         test.insert("0807654321", "Wozniak");
