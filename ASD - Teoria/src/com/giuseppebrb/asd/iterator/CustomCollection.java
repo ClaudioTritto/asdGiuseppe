@@ -3,10 +3,11 @@ package com.giuseppebrb.asd.iterator;
 import java.util.Iterator;
 
 /**
- * Questa classe mostra la strutturazione di un oggetto ex-novo che implemnta un
- * proprio iteratore.
+ * Questa classe mostra la strutturazione di un oggetto ex-novo che implementa un
+ * proprio iteratore. Se si vuole vedere un esempio più approfondito, controllare la struttura Lista
+ * nel package dei dati astratti fondamentali.
  *
- * @param <T>
+ * @param <T> tipo della collezione
  * @author Giuseppe Barbato
  */
 public class CustomCollection<T> implements Iterable<T>, List<T> {
@@ -93,6 +94,20 @@ public class CustomCollection<T> implements Iterable<T>, List<T> {
             return elem;
         }
 
+    }
+
+    public static void main(String[] args) {
+        CustomCollection<String> collection = new CustomCollection<>();
+        System.out.println("----- Structure is empty: " + collection.isEmpty() + " -----");
+
+        collection.add("First Item");
+        collection.add("Second Item");
+        collection.add("Third Item");
+        collection.add("Fourth Item");
+        System.out.println("----- Items added -----");
+
+        for (String s : collection)
+            System.out.println(s);
     }
 
 }
