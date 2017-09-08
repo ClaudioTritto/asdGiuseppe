@@ -1,4 +1,4 @@
-package Lab20160225.model;
+package com.giuseppebrb.asd.exams.Lab20160225.model;
 
 import java.net.InetAddress;
 

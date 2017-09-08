@@ -1,4 +1,4 @@
-package Lab20160118.model;
+package com.giuseppebrb.asd.exams.Lab20160118.model;
 
 public class Pacchetto {
 	

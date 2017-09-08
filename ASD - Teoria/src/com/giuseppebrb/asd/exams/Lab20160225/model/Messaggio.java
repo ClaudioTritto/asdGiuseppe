@@ -1,7 +1,7 @@
-package Lab20160225.model;
+package com.giuseppebrb.asd.exams.Lab20160225.model;
 
-import Lab20160225.datastructure.ListaIndicizzata;
-import Lab20160225.datastructure.ListaIndicizzataRD;
+import com.giuseppebrb.asd.exams.Lab20160225.datastructure.ListaIndicizzata;
+import com.giuseppebrb.asd.exams.Lab20160225.datastructure.ListaIndicizzataRD;
 
 public class Messaggio {
 	private ListaIndicizzata<Datagramma> messaggio = new ListaIndicizzataRD<>();

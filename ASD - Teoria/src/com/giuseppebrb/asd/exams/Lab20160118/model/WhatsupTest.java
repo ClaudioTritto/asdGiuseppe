@@ -1,9 +1,9 @@
-package Lab20160118.model;
+package com.giuseppebrb.asd.exams.Lab20160118.model;
 
 import java.util.Random;
 
 public class WhatsupTest {
-	private static String [] parole = {"Questa ", "è ", "una ", "prova ", "un ", " po' ", "più ", "lunga!", "Hai ", "capito ", "coglione? ", "Utlime due ", "stringhe"};
+	private static String [] parole = {"Questa ", "ï¿½ ", "una ", "prova ", "un ", " po' ", "piï¿½ ", "lunga!", "Hai ", "capito ", "coglione? ", "Utlime due ", "stringhe"};
 	public static void main(String[] args) {
 		Whatsup test = new Whatsup();
 		Whatsup test1 = new Whatsup();
@@ -37,7 +37,7 @@ public class WhatsupTest {
 				p = new Pacchetto("Giulio Golia", "Enrico Lucci", rnd.nextInt(1000), parole[i],  false);
 			test2.addPacchetto(p);
 		}
-		System.out.println("La generazione degli indici è pseudocasuale quindi potrebbe essere che un'eccezione ItemALreadyPresent venga lanciata. Se dovesse avvenire rilanciare.");
+		System.out.println("La generazione degli indici ï¿½ pseudocasuale quindi potrebbe essere che un'eccezione ItemALreadyPresent venga lanciata. Se dovesse avvenire rilanciare.");
 		System.out.println("Comunicazione 1: " + test.toString());
 		System.out.println("Comunicazione 2: " + test1.toString());
 		System.out.println("Comunicazione 3: " + test2.toString());

@@ -1,10 +1,10 @@
-package Lab20150203.model;
+package com.giuseppebrb.asd.exams.Lab20150203.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Lab20150203.datastructure.Dictionary;
-import Lab20150203.datastructure.HashDict;
+import com.giuseppebrb.asd.exams.Lab20150203.datastructure.Dictionary;
+import com.giuseppebrb.asd.exams.Lab20150203.datastructure.HashDict;
 
 public class Elezione {
 	private int voters, nulle, bianche;

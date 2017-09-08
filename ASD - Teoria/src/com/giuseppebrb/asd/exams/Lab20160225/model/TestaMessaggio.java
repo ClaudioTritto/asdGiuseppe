@@ -1,4 +1,4 @@
-package Lab20160225.model;
+package com.giuseppebrb.asd.exams.Lab20160225.model;
 
 import java.util.Random;
 
@@ -12,7 +12,7 @@ public class TestaMessaggio {
 			else
 				test.addDatagramma(new Datagramma(null, null, rnd.nextInt(1000), "datagramma: "+ i+ " ", false));
 		}
-		System.out.println("Il datagramma è completo: " + test.completo());
+		System.out.println("Il datagramma ï¿½ completo: " + test.completo());
 		System.out.println("Risultato datagramma:\n" + test.toString());
 	}
 }

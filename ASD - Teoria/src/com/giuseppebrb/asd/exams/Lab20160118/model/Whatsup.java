@@ -1,7 +1,7 @@
-package Lab20160118.model;
+package com.giuseppebrb.asd.exams.Lab20160118.model;
 
-import Lab20160118.datastructure.IndexedAL;
-import Lab20160118.datastructure.IndexedList;
+import com.giuseppebrb.asd.exams.Lab20160118.datastructure.IndexedAL;
+import com.giuseppebrb.asd.exams.Lab20160118.datastructure.IndexedList;
 
 public class Whatsup implements Comparable<Whatsup> {
 	private IndexedList<Pacchetto> comunicazione = new IndexedAL<>();
@@ -36,7 +36,7 @@ public class Whatsup implements Comparable<Whatsup> {
 		test.addPacchetto(new Pacchetto("IO", "Ale", 30, "una ", false));
 		test.addPacchetto(new Pacchetto("IO", "Ale", 10, "Questa ", false));
 		test.addPacchetto(new Pacchetto("IO", "Ale", 40, "prova!", true));
-		test.addPacchetto(new Pacchetto("IO", "Ale", 20, "è ", false));
+		test.addPacchetto(new Pacchetto("IO", "Ale", 20, "ï¿½ ", false));
 		System.out.println("Is complete?: " + test.complete());
 		System.out.println(test.toString());
 	}

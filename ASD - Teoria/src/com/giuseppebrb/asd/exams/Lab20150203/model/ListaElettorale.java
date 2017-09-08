@@ -1,4 +1,4 @@
-package Lab20150203.model;
+package com.giuseppebrb.asd.exams.Lab20150203.model;
 
 import java.util.List;
 
